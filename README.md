@@ -5,7 +5,7 @@ VirtualArena package for the design of MPC controllers with closed-loop guarante
 
 Consider the dynamical system
  
-                            \dot{x}=f(t,x,u)                           (1)
+         \dot{x}=f(t,x,u)                           (1)
  
 and a control law k_aux : R x R^n -> R^n that stabilizes the origin exponentially quickly, with Lyapunov Certificated of exponential stability `esLyapCertificate`  (see help ESLyapunovCertificate).
  
@@ -19,7 +19,7 @@ for a vector a = [a1,a2,...,am]. Then, along the closed-loop (1) with u = k_aux 
  
 satisfies
     
-                   \dot{m}(t,x) <= -l(t,x, k_aux(t,x)).
+        \dot{m}(t,x) <= -l(t,x, k_aux(t,x)).
 
 **Reference**: 
 
